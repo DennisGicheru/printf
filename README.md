@@ -2,9 +2,7 @@
 
                                                                                                                                                        
 
-This project is a collaboration between Steve Ramoya and Dennis Gicheru where a function named printf is created and is supposed to imitate the actual 
-
-printf function found in stdio.h                                                                                                                       
+This project is a collaboration between Steve Ramoya and Dennis Gicheru where a function named printf is created and is supposed to imitate the actual printf function found in stdio.h                                                                                                                       
 
                                                                                                                                                        
 
