@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-#ifndef MAIN_H_
-#define MAIN_H
-#include <stdio.h>
-#include <stdarg.h>
-
-int _printf(const char *format, ...);
-
-int _putchar(char c);
-=======
-#Ifndef _MAIN_H
+#ifndef _MAIN_H
 #define _MAIN_H
 
 #include <stdlib.h>
@@ -105,6 +95,6 @@ char *fill_short_oct_array(char *bnr, char *oct);
 char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
 
 
->>>>>>> a6230879c3f943dc0ace11b3222f65a0bf405935
+
 
 #endif
