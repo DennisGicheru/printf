@@ -6,16 +6,20 @@
 #include <stdio.h>
 #include <unistd.h>
 
+/**
+ * struct print- print specifier
+ * @type_arg: the *type_arg character.
+ * @f: the functions associated.
+ *
+ */
+
 typedef struct print
-
 {
+	char *type_arg;
 
-		char *type_arg;
-
-			int (*f)(va_list, char *, unsigned int);
+	int (*f)(va_list, char *, unsigned int);
 
 } print_t;
-
 
 
 int _printf(const char *format, ...);
@@ -93,7 +97,6 @@ char *fill_long_oct_array(char *bnr, char *oct);
 char *fill_short_oct_array(char *bnr, char *oct);
 
 char *fill_hex_array(char *bnr, char *hex, int isupp, int limit);
-
 
 
 
